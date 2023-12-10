@@ -2,7 +2,7 @@
 
 layout: post
 
-title:  "$100 hour talk with a senior software developer [project esmerelda]"
+title:  "$100 hour talk with a senior software developer"
 
 author: sal
 
