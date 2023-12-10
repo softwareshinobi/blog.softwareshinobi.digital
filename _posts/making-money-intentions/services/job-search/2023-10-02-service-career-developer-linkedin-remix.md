@@ -6,9 +6,9 @@ author: softwareshinobi
 
 title:  "doing linked [1M]"
 
-categories: [lorem-ipsum]
+categories: [ freelancing, job-search ]
 
-tags: [lorem-ipsum,lorem,ipsum]
+tags: [ freelancing, job-search ]
 
 image: https://random.imagecdn.app/820/360
 
