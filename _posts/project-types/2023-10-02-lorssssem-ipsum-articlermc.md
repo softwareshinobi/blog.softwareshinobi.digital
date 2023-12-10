@@ -4,7 +4,7 @@ layout: post
 
 author: softwareshinobi
 
-title:  "lorem ipsum sed"
+title:  "rmc things"
 
 categories: [lorem-ipsum]
 
@@ -12,7 +12,7 @@ tags: [lorem-ipsum,lorem,ipsum]
 
 image: https://random.imagecdn.app/820/360
 
-description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti."
+description: "rmc things"
 
 hidden: false
 
