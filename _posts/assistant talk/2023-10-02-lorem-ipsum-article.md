@@ -4,20 +4,19 @@ layout: post
 
 author: softwareshinobi
 
-title:  "lorem ipsum sed"
+title:  "Maria and the million"
 
 categories: [lorem-ipsum]
 
-tags: [lorem-ipsum,lorem,ipsum]
+tags: [assistants]
 
 image: https://random.imagecdn.app/820/360
 
-description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti."
+description: "Maria and the million"
 
 hidden: false
 
 ---
-# Maria and the million
 
 ## first day
 
