@@ -1,0 +1,450 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 80
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 24
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 7910
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 77
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 5670
+    content: w
+  - delay: 252
+    content: h
+  - delay: 6
+    content: oami
+  - delay: 285
+    content: "\r\n\e[?2004l\r"
+  - delay: 27
+    content: "software-shinobi\r\n\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 25
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 3777
+    content: i
+  - delay: 130
+    content: d
+  - delay: 192
+    content: "\r\n\e[?2004l\r"
+  - delay: 52
+    content: "uid=1000(software-shinobi) gid=1000(software-shinobi) groups=1000(software-shinobi),27(sudo),135(docker)\r\n\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 24
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 1628
+    content: g
+  - delay: 184
+    content: r
+  - delay: 160
+    content: o
+  - delay: 104
+    content: u
+  - delay: 121
+    content: p
+  - delay: 231
+    content: "\r\n\e[?2004l\r"
+  - delay: 3426
+    content: g
+  - delay: 213
+    content: r
+  - delay: 160
+    content: "oCommand 'group' not found, did you mean:\r\n  command 'grop' from deb grop (2:0.10-1.2)\r\n  command 'groups' from deb coreutils (8.32-4.1ubuntu1)\r\nTry: sudo apt install <deb name>\r\n"
+  - delay: 83
+    content: u
+  - delay: 122
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 15
+    content: "p\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ group"
+  - delay: 123
+    content: s
+  - delay: 266
+    content: "\r\n\e[?2004l\r"
+  - delay: 25
+    content: software-shinobi sudo docker
+  - delay: 5
+    content: "\r\n\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 45
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 705
+    content: r
+  - delay: 105
+    content: e
+  - delay: 95
+    content: s
+  - delay: 104
+    content: e
+  - delay: 80
+    content: t
+  - delay: 185
+    content: "\r\n\e[?2004l\r"
+  - delay: 25
+    content: "\ec\e]104\a\e"
+  - delay: 5
+    content: "[!p\e"
+  - delay: 5
+    content: "[?3;4l\e[4l\e>\e[?69l\r"
+  - delay: 101
+    content: c
+  - delay: 152
+    content: l
+  - delay: 130
+    content: e
+  - delay: 158
+    content: a
+  - delay: 104
+    content: r
+  - delay: 176
+    content: |+
+
+  - delay: 180
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 16
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ clear\r\n\e[?2004l\r"
+  - delay: 7
+    content: "\e[H\e[2J\e[3J"
+  - delay: 7
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 38
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 35
+    content: g
+  - delay: 179
+    content: r
+  - delay: 112
+    content: o
+  - delay: 104
+    content: u
+  - delay: 96
+    content: p
+  - delay: 280
+    content: "\r\n\e[?2004l\r"
+  - delay: 447
+    content: g
+  - delay: 168
+    content: r
+  - delay: 14
+    content: 'Command ''group'' not found, did you mean:'
+  - delay: 8
+    content: "\r\n  command 'groups' from deb coreutils (8.32-4.1ubuntu1)\r\n  command 'grop' from deb grop (2:0.10-1.2)\r\nTry: sudo apt install <deb name>\r\n"
+  - delay: 81
+    content: o
+  - delay: 63
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 8
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ gro"
+  - delay: 67
+    content: u
+  - delay: 110
+    content: p
+  - delay: 433
+    content: s
+  - delay: 210
+    content: "\r\n\e[?2004l\r"
+  - delay: 20
+    content: software-shinobi sudo docker
+  - delay: 6
+    content: "\r\n"
+  - delay: 13
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 15
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 440
+    content: r
+  - delay: 93
+    content: e
+  - delay: 88
+    content: s
+  - delay: 112
+    content: e
+  - delay: 58
+    content: t
+  - delay: 155
+    content: "\r\n\e[?2004l\r"
+  - delay: 7
+    content: "\ec\e]104\a\e[!p\e[?3;4l\e[4l\e>\e[?69l\r"
+  - delay: 349
+    content: g
+  - delay: 227
+    content: r
+  - delay: 200
+    content: o
+  - delay: 138
+    content: u
+  - delay: 87
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 13
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ grou"
+  - delay: 18
+    content: p
+  - delay: 168
+    content: s
+  - delay: 177
+    content: "\r\n\e[?2004l\r"
+  - delay: 7
+    content: "software-shinobi sudo docker\r\n\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 10
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 577
+    content: c
+  - delay: 176
+    content: a
+  - delay: 104
+    content: t
+  - delay: 112
+    content: ' '
+  - delay: 120
+    content: /
+  - delay: 96
+    content: e
+  - delay: 53
+    content: t
+  - delay: 187
+    content: c
+  - delay: 128
+    content: /
+  - delay: 456
+    content: g
+  - delay: 168
+    content: r
+  - delay: 122
+    content: o
+  - delay: 110
+    content: u
+  - delay: 258
+    content: d
+  - delay: 170
+    content: s
+  - delay: 311
+    content: "\b\e[K"
+  - delay: 157
+    content: "\b\e[K"
+  - delay: 296
+    content: p
+  - delay: 319
+    content: "\r\n\e[?2004l\r"
+  - delay: 17
+    content: "root:x:0:\r\ndaemon:x:1:\r\nbin:x:2:\r\nsys:x:3:\r\nadm:x:4:syslog\r\ntty:x:5:\r\ndisk:x:6:\r\nlp:x:7:\r\nmail:x:8:\r\nnews:x:9:\r\nuucp:x:10:\r\nman:x:12:\r\nproxy:x:13:\r\nkmem:x:15:\r\n"
+  - delay: 7
+    content: "dialout:x:20:\r\n"
+  - delay: 12
+    content: "fax:x:21:\r\nvoice:x:22:\r\ncdrom:x:24:\r\nfloppy:x:25:\r\ntape:x:26:\r\nsudo:x:27:software-shinobi\r\naudio:x:29:pulse\r\ndip:x:30:\r\nwww-data:x:33:\r\nbackup:x:34:\r\noperator:x:37:\r\nlist:x:38:\r\nirc:x:39:\r\nsrc:x:40:\r\ngnats:x:41:\r\nshadow:x:42:\r\nutmp:x:43:\r\nvideo:x:44:\r\nsasl:x:45:\r\nplugdev:x:46:\r\nstaff:x:50:\r\ngames:x:60:\r\nusers:x:100:\r\nnogroup:x:65534:\r\nsystemd-journal:x:101:\r\nsystemd-network:x:102:\r\nsystemd-resolve:x:103:\r\ncrontab:x:104:\r\nmessagebus:x:105:\r\nsystemd-timesync:x:106:"
+  - delay: 10
+    content: "\r\ninput:x:107:\r\nsgx:x:108:\r\nkvm:x:109:\r\nrender:x:110:\r\nsyslog:x:111:\r\n_ssh:x:112:\r\ntss:x:113:\r\nbluetooth:x:114:\r\nssl-cert:x:115:\r\nuuidd:x:116:\r\ntcpdump:x:117:\r\nplocate:x:118:\r\navahi-autoipd:x:119:\r\nnetdev:x:120:\r\navahi:x:121:\r\nlpadmin:x:122:\r\nlightdm:x:123:\r\nnopasswdlogin:x:124:\r\nrtkit:x:125:\r\nwhoopsie:x:126:\r\nscanner:x:127:saned\r\nsaned:x:128:\r\ncolord:x:129:\r\npulse:x:130:\r\npulse-access:x:131:\r\nlxd:x:132:\r\nsambashare:x:133:\r\n_flatpak:x:134:\r\ndocker:x:135:software-shinobi\r\nfwupd-refresh:x:136:\r\ngeoclue:x:137:\r\nsoftware-shinobi:x:1000:\r\noident:x:138:\r\nnslcd:x:139:\r\nwinbindd_priv:x:140:\r\ngomsur:x:1001:\r\narticle-magick:x:1002:\r\n\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 16
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 841
+    content: c
+  - delay: 143
+    content: a
+  - delay: 113
+    content: t
+  - delay: 104
+    content: ' '
+  - delay: 176
+    content: /
+  - delay: 64
+    content: e
+  - delay: 58
+    content: t
+  - delay: 180
+    content: c
+  - delay: 120
+    content: p
+  - delay: 608
+    content: "\b\e[K"
+  - delay: 239
+    content: /
+  - delay: 833
+    content: p
+  - delay: 167
+    content: a
+  - delay: 260
+    content: s
+  - delay: 163
+    content: s
+  - delay: 144
+    content: w
+  - delay: 104
+    content: d
+  - delay: 300
+    content: "\r\n\e[?2004l\r"
+  - delay: 17
+    content: "root:x:0:0:root:/root:/bin/bash\r\ndaemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin\r\nbin:x:2:2:bin:/bin:/usr/sbin/nologin\r\nsys:x:3:3:sys:/dev:/usr/sbin/nologin\r\nsync:x:4:65534:sync:/bin:/bin/sync\r\ngames:x:5:60:games:/usr/games:/usr/sbin/nologin\r\nman:x:6:12:man:/var/cache/man:/usr/sbin/nologin\r\nlp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin\r\nmail:x:8:8:mail:/var/mail:/usr/sbin/nologin\r\nnews:x:9:9:news:/var/spool/news:/usr/sbin/nologin\r\nuucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin\r\nproxy:x:13:13:proxy:/bin:/usr/sbin/nologin\r\nwww-data:x:33:33:www-data:/var/www:/usr/sbin/nologin\r\nbackup:x:34:34:backup:/var/backups:/usr/sbin/nologin\r\nlist:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin\r\n"
+  - delay: 11
+    content: "irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin\r\ngnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin\r\nnobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin\r\nsystemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin\r\nsystemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin\r\nmessagebus:x:102:105::/nonexistent:/usr/sbin/nologin\r\nsystemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin\r\nsyslog:x:104:111::/home/syslog:/usr/sbin/nologin\r\n_apt:x:105:65534::/nonexistent:/usr/sbin/nologin\r\ntss:x:106:113:TPM software stack,,,:/var/lib/tpm:/bin/false\r\nuuidd:x:107:116::/run/uuidd:/usr/sbin/nologin\r\ntcpdump:x:108:117::/nonexistent:/usr/sbin/nologin\r\navahi-autoipd:x:109:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin\r\nusbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin\r\ndnsmasq:x:111:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin\r\nkernoops:x:112:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin\r\n"
+  - delay: 13
+    content: "avahi:x:113:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin\r\ncups-pk-helper:x:114:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin\r\nlightdm:x:115:123:Light Display Manager:/var/lib/lightdm:/bin/false\r\nrtkit:x:116:125:RealtimeKit,,,:/proc:/usr/sbin/nologin\r\nwhoopsie:x:117:126::/nonexistent:/bin/false\r\nspeech-dispatcher:x:118:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false\r\nsaned:x:119:128::/var/lib/saned:/usr/sbin/nologin\r\ncolord:x:120:129:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin\r\npulse:x:121:130:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin\r\nhplip:x:122:7:HPLIP system user,,,:/run/hplip:/bin/false\r\n_rpc:x:123:65534::/run/rpcbind:/usr/sbin/nologin\r\nstatd:x:124:65534::/var/lib/nfs:/usr/sbin/nologin\r\n_flatpak:x:125:134:Flatpak system-wide installation helper,,,:/nonexistent:/usr/sbin/nologin\r\nfwupd-refresh:x:126:136:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin\r\ngeoclue:x:127:137::/var/lib/geoclue:/usr/sbin/nologin\r\nsoftware-shinobi:x:1000:1000:,,,:/home/software-shinobi:/bin/bash\r\noident:x:128:138::/:/usr/sbin/nologin\r\nnslcd:x:129:139:nslcd name service LDAP connection daemon,,,:/run/nslcd:/usr/sbin/nologin\r\ngomsur:x:1001:1001:,,,:/home/gomsur:/bin/bash\r\narticle-magick:x:1002:1002:,,,:/home/article-magick:/bin/bash\r\n\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 14
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 977
+    content: r
+  - delay: 140
+    content: e
+  - delay: 85
+    content: s
+  - delay: 111
+    content: e
+  - delay: 72
+    content: t
+  - delay: 1919
+    content: ''''
+  - delay: 545
+    content: "\b\e[K"
+  - delay: 235
+    content: ;
+  - delay: 245
+    content: c
+  - delay: 136
+    content: l
+  - delay: 128
+    content: e
+  - delay: 184
+    content: a
+  - delay: 9
+    content: r
+  - delay: 167
+    content: ;
+  - delay: 321
+    content: "\r\n\e[?2004l\r"
+  - delay: 37
+    content: "\e"
+  - delay: 29
+    content: "c\e]104\a\e[!p\e[?3;4l\e[4l\e>\e[?69l\r"
+  - delay: 1034
+    content: "\e[H\e[2J\e[3J"
+  - delay: 17
+    content: "\e]0;software-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\"
+  - delay: 73
+    content: "\e]7;file://pandora/home/software-shinobi/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts\e\\\e[?2004hsoftware-shinobi@pandora:~/Documents/software-shinobi/brand-websites/blog.softwareshinobi.digital/_posts$ "
+  - delay: 550
+    content: x
+  - delay: 464
+    content: "\b\e[K"
+  - delay: 129
+    content: "e\b\e[K"
+  - delay: 551
+    content: e
+  - delay: 146
+    content: x
+  - delay: 838
+    content: "\b\e[K"
+  - delay: 96
+    content: "\b\e[K"
+  - delay: 144
+    content: "\a"
+  - delay: 264
+    content: e
+  - delay: 576
+    content: x
+  - delay: 104
+    content: i
+  - delay: 88
+    content: t
+  - delay: 146
+    content: "\r\n\e[?2004l\rlogout\r\n"

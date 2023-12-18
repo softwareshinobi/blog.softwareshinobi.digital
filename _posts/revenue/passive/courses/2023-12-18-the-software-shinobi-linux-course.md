@@ -25,6 +25,26 @@ the linux course itself was up on that jekyll course.
 
 ### in progress
 
+create a script to create a user and then check shit and then delete the user
+
+```bash
+bash script here
+```
+
+### 28 minute delivery scoping
+
+add bash configuration to record an mp4 of my terminal session
+
+the bash script to create a new user and see basic information about the user
+
+the bash script to delete a user and confirm deletion
+
+execute bash configuration and record script
+
+review created video of terminal script execution
+
+## after delivery dwity stood up on localhost on mobile react native code.
+
 ### backlog
 
 [user interface] find the jekyll blog that has the course thing from yesterday
@@ -39,13 +59,27 @@ get the `knowledge base` up under docs.softwareshinobi.digital
 
 [marketing] add docs.softwareshinobi.digital to my all my links
 
+configure the microphone situation on my local computer
+
 ### content
 
-add bash configuration to record an mp4 of my terminal session
 
-create a script to create a user and then check shit and then delete the user
 
-execute this script and review the created video
+### document me
+
+https://github.com/theonewolf/TermRecord
+
+    its cool, but i need an mp4. 
+
+https://www.redhat.com/sysadmin/record-terminal-script-scriptreplay
+
+    red hat docs. whatever.
+
+### promising
+
+https://softwarerecs.stackexchange.com/questions/80293/linux-command-line-tools-to-create-videos-from-text
+
+https://github.com/faressoft/terminalizer
 
 
 
