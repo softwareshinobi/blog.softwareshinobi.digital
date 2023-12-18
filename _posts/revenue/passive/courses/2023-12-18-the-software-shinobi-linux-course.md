@@ -18,6 +18,49 @@ hidden: false
 
 ---
 
+## day 1
+
+the linux course itself was up on that jekyll course.
+
+
+### in progress
+
+### backlog
+
+[user interface] find the jekyll blog that has the course thing from yesterday
+
+[user interface] find the jekyll blog that has the `knowledge base` from yesterday
+
+get the course thing up under linux.softwareshinobi.digital
+
+get the `knowledge base` up under docs.softwareshinobi.digital
+
+[marketing] add linux.softwareshinobi.digital to my all my links
+
+[marketing] add docs.softwareshinobi.digital to my all my links
+
+### content
+
+add bash configuration to record an mp4 of my terminal session
+
+create a script to create a user and then check shit and then delete the user
+
+execute this script and review the created video
+
+
+
+
+
+
+
+
+
+
+
+
+
+ready to consume.
+
 ## softwareshinobi.digital [course creator]
 
 a static html with information about software shinobi and what he has going on.
@@ -38,7 +81,11 @@ a jekyll site with single course content about linux and enough linux to get sta
 
 ## where we ended up
 
-the free software shinobi linux course was live and navigatable to from academy.softwareshinobi.digital LMS site.
+the free software shinobi linux course was live and findable from academy.softwareshinobi.digital LMS site, the links.softwareshinobi.online links portal, and the comment section of a linkedin post published by software shinobi.
+
+## what happened after we ended up there
+
+the planet started eating my freely available fruit.
 
 ## stretch goal
 
