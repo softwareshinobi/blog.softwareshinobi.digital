@@ -93,3 +93,31 @@ java coding for kiddies
 database design
 
 OOPS
+
+## implementation steps
+
+spin up a free landing page to promote the premium book
+
+spin up a free landing page to promote the premium course
+
+create a product detail page for the premium book
+
+create a product detail page for the premium course
+
+create the woocommerce site ready for valkyrie
+
+view purchases made in the woocommerce store
+
+spin up a free learning course jekyll template
+
+## to think about
+
+estimation of fb ad cost
+
+estimatin of linked in ad costs
+
+keywords in the space
+
+target customer and culture
+
+target customer emotions
