@@ -18,27 +18,31 @@ hidden: false
 
 ---
 
+## softwareshinobi.digital [course creator]
 
+a static html with information about software shinobi and what he has going on.
 
+## links.softwareshinobi.digital [course bulletin board]
 
+a portal to take the user to all the assets maintained by software shinobi
 
+## academy.softwareshinobi.digital [course marketplace]
 
+a static (or jekyll) site with a listing of courses and books available to be consumed by the general public.
 
+some consumptions are free, others require money.
 
+## linux.softwareshinobi.digital [course workspace]
 
+a jekyll site with single course content about linux and enough linux to get started in two hours.
 
+## where we ended up
 
+the free software shinobi linux course was live and navigatable to from academy.softwareshinobi.digital LMS site.
 
+## stretch goal
 
-
-
-
-
-
-
-
-
-
+there was an user dashboard wrapper around the jekyll course situation.
 
 ##########################################
 
