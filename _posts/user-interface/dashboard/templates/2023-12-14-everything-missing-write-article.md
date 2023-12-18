@@ -24,6 +24,12 @@ In hac habitasse platea dictumst. Etiam convallis eleifend lectus, ac vulputate 
 
 In hac habitasse platea dictumst. Etiam convallis eleifend lectus, ac vulputate enim ullamcorper sit amet. Vivamus egestas augue sed arcu consequat volutpat.
 
-## Phasellus pulvinar orci quis
+## what i needed for article writing
 
 i needed to be able to turn a permalink into a traditional book caps sentence so that i could turn a filename into an article title.
+
+## what i needed for the maids
+
+i needed my markdown templates to use proper markdown syntax
+
+i needed a markdown syntax article
