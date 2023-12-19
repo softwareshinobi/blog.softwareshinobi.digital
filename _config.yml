@@ -28,13 +28,24 @@ plugins:
   
 authors:
     sal:
-      name:           "@softwareshinobi"
-      site:           https://www.softwareshinobi.digital
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
+        name:           "@softwareshinobi"
+
+        neeame: "Software Shinobi"
+
+        display_name: "Software Shinobi"
+
+        email: the.software.shinobi@gmail.com
+
+        site: https://links.softwareshinobi.digital
+
+        twitter: https://links.softwareshinobi.digital
+
+        description: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
+
+        avatar: 'assets/images/valorant/softwareshinobi.jpg'
+
+        bio: "Freelance Software Developer & Technical Writer. I design, code, test, document, and deploy software things."
+
 # Defaults
 defaults:
 
