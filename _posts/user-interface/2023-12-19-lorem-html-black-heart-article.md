@@ -4,7 +4,7 @@ layout: post
 
 author: softwareshinobi
 
-title:  "official software shinobi footer"
+title:  "html black heart"
 
 categories: [lorem-ipsum]
 
@@ -12,21 +12,21 @@ tags: [lorem-ipsum,lorem,ipsum]
 
 image: https://random.imagecdn.app/820/360
 
-description: "official software shinobi footer"
+description: "html black heart"
 
 hidden: false
 
 ---
 
-official software shinobi footer
+html black heart
 
-<img src="https://random.imagecdn.app/820/360" alt= “” width="820" height="360">
+<img src="https://random.imagecdn.app/820/360" width="820" height="360">
 
 ```html
 &#9829;
 ```
 
-looks like:
+renders like:
 
 <div class="showcase">
 
